@@ -33,7 +33,7 @@ class Gestion_BBDD:
 
         if entorno == 'BBDD_CLIENTE':
             # Especifica los detalles de la conexión
-            driver = 'ODBC Driver 18 for SQL Server'
+            driver = 'ODBC Driver 17 for SQL Server'
             server = 'LAPTOP-DT5JG5J0'
             database = 'GNF_ELEC'
             username = 'sa'
